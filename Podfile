@@ -14,6 +14,8 @@ target 'UUAccount' do
   pod 'FluentDarkModeKit'
   # sqlite数据库
   pod 'GRDB.swift'
+
+pod 'ReactiveCocoa'
   
 end
 

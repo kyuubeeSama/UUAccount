@@ -27,8 +27,13 @@
 		A943EDD625F5FEDC00C11A88 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943EDCD25F5FEDB00C11A88 /* String+extension.swift */; };
 		A943EDD725F5FEDC00C11A88 /* Dictionary+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943EDCE25F5FEDC00C11A88 /* Dictionary+extension.swift */; };
 		A943EDD825F5FEDC00C11A88 /* UITextField+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943EDCF25F5FEDC00C11A88 /* UITextField+extension.swift */; };
-		A943EDDD25F5FF1B00C11A88 /* PadIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943EDDC25F5FF1B00C11A88 /* PadIndexViewController.swift */; };
-		A943EDE125F5FF2E00C11A88 /* PhoneIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943EDE025F5FF2E00C11A88 /* PhoneIndexViewController.swift */; };
+		A943EDE125F5FF2E00C11A88 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943EDE025F5FF2E00C11A88 /* IndexViewController.swift */; };
+		A95E4BF62628234900F3CFD7 /* SqlTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E4BF52628234900F3CFD7 /* SqlTool.swift */; };
+		A95E4C042628258E00F3CFD7 /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E4C032628258E00F3CFD7 /* BillViewController.swift */; };
+		A95E4C07262825A700F3CFD7 /* StatementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E4C06262825A700F3CFD7 /* StatementViewController.swift */; };
+		A95E4C0A262825F300F3CFD7 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E4C09262825F300F3CFD7 /* RecordViewController.swift */; };
+		A95E4C0D2628265100F3CFD7 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E4C0C2628265100F3CFD7 /* CategoryViewController.swift */; };
+		A95E4C10262826EE00F3CFD7 /* SiftCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E4C0F262826EE00F3CFD7 /* SiftCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,8 +60,13 @@
 		A943EDCD25F5FEDB00C11A88 /* String+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
 		A943EDCE25F5FEDC00C11A88 /* Dictionary+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+extension.swift"; sourceTree = "<group>"; };
 		A943EDCF25F5FEDC00C11A88 /* UITextField+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+extension.swift"; sourceTree = "<group>"; };
-		A943EDDC25F5FF1B00C11A88 /* PadIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadIndexViewController.swift; sourceTree = "<group>"; };
-		A943EDE025F5FF2E00C11A88 /* PhoneIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneIndexViewController.swift; sourceTree = "<group>"; };
+		A943EDE025F5FF2E00C11A88 /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		A95E4BF52628234900F3CFD7 /* SqlTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqlTool.swift; sourceTree = "<group>"; };
+		A95E4C032628258E00F3CFD7 /* BillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
+		A95E4C06262825A700F3CFD7 /* StatementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementViewController.swift; sourceTree = "<group>"; };
+		A95E4C09262825F300F3CFD7 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		A95E4C0C2628265100F3CFD7 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		A95E4C0F262826EE00F3CFD7 /* SiftCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiftCategoryViewController.swift; sourceTree = "<group>"; };
 		F74455417601C60F490BDC3E /* libPods-UUAccount.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UUAccount.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,8 +112,9 @@
 		A93B37F625F50F55005B0250 /* UUAccount */ = {
 			isa = PBXGroup;
 			children = (
-				A943EDA325F5FCF900C11A88 /* pad */,
-				A943EDA225F5FCF400C11A88 /* phone */,
+				A95E4BFE262824E100F3CFD7 /* 报表 */,
+				A95E4BF92628242E00F3CFD7 /* 账单 */,
+				A943EDB225F5FD9100C11A88 /* 首页 */,
 				A943EDB825F5FE3F00C11A88 /* Tool */,
 				A943EDC625F5FEDB00C11A88 /* extension */,
 				A93B37F725F50F55005B0250 /* AppDelegate.swift */,
@@ -118,84 +129,38 @@
 			path = UUAccount;
 			sourceTree = "<group>";
 		};
-		A943EDA225F5FCF400C11A88 /* phone */ = {
+		A943EDB025F5FD8400C11A88 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A943EDB225F5FD9100C11A88 /* 首页 */,
 			);
-			path = phone;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		A943EDA325F5FCF900C11A88 /* pad */ = {
+		A943EDB125F5FD8A00C11A88 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A943EDA625F5FD0900C11A88 /* 首页 */,
+				A943EDE025F5FF2E00C11A88 /* IndexViewController.swift */,
+				A95E4C09262825F300F3CFD7 /* RecordViewController.swift */,
+				A95E4C0C2628265100F3CFD7 /* CategoryViewController.swift */,
 			);
-			path = pad;
-			sourceTree = "<group>";
-		};
-		A943EDA625F5FD0900C11A88 /* 首页 */ = {
-			isa = PBXGroup;
-			children = (
-				A943EDA925F5FD2100C11A88 /* model */,
-				A943EDA825F5FD1A00C11A88 /* controller */,
-				A943EDA725F5FD1200C11A88 /* views */,
-			);
-			path = "首页";
-			sourceTree = "<group>";
-		};
-		A943EDA725F5FD1200C11A88 /* views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		A943EDA825F5FD1A00C11A88 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				A943EDDC25F5FF1B00C11A88 /* PadIndexViewController.swift */,
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		A943EDA925F5FD2100C11A88 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		A943EDB025F5FD8400C11A88 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		A943EDB125F5FD8A00C11A88 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				A943EDE025F5FF2E00C11A88 /* PhoneIndexViewController.swift */,
-			);
-			path = controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		A943EDB225F5FD9100C11A88 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				A943EDB325F5FD9A00C11A88 /* view */,
-				A943EDB125F5FD8A00C11A88 /* controller */,
-				A943EDB025F5FD8400C11A88 /* model */,
+				A943EDB325F5FD9A00C11A88 /* View */,
+				A943EDB125F5FD8A00C11A88 /* Controller */,
+				A943EDB025F5FD8400C11A88 /* Model */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
 		};
-		A943EDB325F5FD9A00C11A88 /* view */ = {
+		A943EDB325F5FD9A00C11A88 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = view;
+			path = View;
 			sourceTree = "<group>";
 		};
 		A943EDB825F5FE3F00C11A88 /* Tool */ = {
@@ -204,6 +169,7 @@
 				A943EDBA25F5FE3F00C11A88 /* Tool.swift */,
 				A943EDBB25F5FE3F00C11A88 /* config.swift */,
 				A943EDBC25F5FE3F00C11A88 /* FileTool.swift */,
+				A95E4BF52628234900F3CFD7 /* SqlTool.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -222,6 +188,71 @@
 				A943EDCF25F5FEDC00C11A88 /* UITextField+extension.swift */,
 			);
 			path = extension;
+			sourceTree = "<group>";
+		};
+		A95E4BF92628242E00F3CFD7 /* 账单 */ = {
+			isa = PBXGroup;
+			children = (
+				A95E4BFD262824CE00F3CFD7 /* Model */,
+				A95E4BFB262824B700F3CFD7 /* Controller */,
+				A95E4BFA262824AE00F3CFD7 /* View */,
+			);
+			path = "账单";
+			sourceTree = "<group>";
+		};
+		A95E4BFA262824AE00F3CFD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A95E4BFB262824B700F3CFD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A95E4C032628258E00F3CFD7 /* BillViewController.swift */,
+				A95E4C0F262826EE00F3CFD7 /* SiftCategoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A95E4BFD262824CE00F3CFD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A95E4BFE262824E100F3CFD7 /* 报表 */ = {
+			isa = PBXGroup;
+			children = (
+				A95E4C01262824F600F3CFD7 /* Model */,
+				A95E4C00262824EE00F3CFD7 /* View */,
+				A95E4BFF262824E800F3CFD7 /* Controller */,
+			);
+			path = "报表";
+			sourceTree = "<group>";
+		};
+		A95E4BFF262824E800F3CFD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A95E4C06262825A700F3CFD7 /* StatementViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A95E4C00262824EE00F3CFD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A95E4C01262824F600F3CFD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BDF511DE422CABE289E95F0F /* Frameworks */ = {
@@ -329,22 +360,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				A943EDD725F5FEDC00C11A88 /* Dictionary+extension.swift in Sources */,
-				A943EDDD25F5FF1B00C11A88 /* PadIndexViewController.swift in Sources */,
 				A943EDD625F5FEDC00C11A88 /* String+extension.swift in Sources */,
 				A943EDD525F5FEDC00C11A88 /* UIImage+extension.swift in Sources */,
+				A95E4C0A262825F300F3CFD7 /* RecordViewController.swift in Sources */,
 				A93B37FC25F50F55005B0250 /* ViewController.swift in Sources */,
 				A943EDC125F5FE3F00C11A88 /* FileTool.swift in Sources */,
+				A95E4C10262826EE00F3CFD7 /* SiftCategoryViewController.swift in Sources */,
 				A943EDD825F5FEDC00C11A88 /* UITextField+extension.swift in Sources */,
 				A943EDBF25F5FE3F00C11A88 /* Tool.swift in Sources */,
 				A943EDD225F5FEDC00C11A88 /* UIButton+extension.swift in Sources */,
+				A95E4C07262825A700F3CFD7 /* StatementViewController.swift in Sources */,
+				A95E4C042628258E00F3CFD7 /* BillViewController.swift in Sources */,
 				A943EDAB25F5FD4C00C11A88 /* BaseViewController.swift in Sources */,
+				A95E4BF62628234900F3CFD7 /* SqlTool.swift in Sources */,
 				A943EDC025F5FE3F00C11A88 /* config.swift in Sources */,
 				A943EDD125F5FEDC00C11A88 /* Date+extension.swift in Sources */,
-				A943EDE125F5FF2E00C11A88 /* PhoneIndexViewController.swift in Sources */,
+				A943EDE125F5FF2E00C11A88 /* IndexViewController.swift in Sources */,
 				A943EDD325F5FEDC00C11A88 /* NSObject+extension.swift in Sources */,
 				A943EDD425F5FEDC00C11A88 /* UIView+extension.swift in Sources */,
 				A943EDD025F5FEDC00C11A88 /* UIColor+extension.swift in Sources */,
 				A93B37F825F50F55005B0250 /* AppDelegate.swift in Sources */,
+				A95E4C0D2628265100F3CFD7 /* CategoryViewController.swift in Sources */,
 				A93B37FA25F50F55005B0250 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,13 +1,13 @@
 //
-//  PhoneIndexViewController.swift
+//  RecordViewController.swift
 //  UUAccount
 //
-//  Created by Galaxy on 2021/3/8.
-//
+//  Created by Galaxy on 2021/4/15.
+//  记账界面
 
 import UIKit
 
-class PhoneIndexViewController: BaseViewController {
+class RecordViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

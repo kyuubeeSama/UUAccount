@@ -1,13 +1,13 @@
 //
-//  PadIndexViewController.swift
+//  StatementViewController.swift
 //  UUAccount
 //
-//  Created by Galaxy on 2021/3/8.
-//
+//  Created by Galaxy on 2021/4/15.
+//  报表界面
 
 import UIKit
 
-class PadIndexViewController: BaseViewController {
+class StatementViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

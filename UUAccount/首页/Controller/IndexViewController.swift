@@ -7,12 +7,13 @@
 
 import UIKit
 
-class PhoneIndexViewController: BaseViewController {
+class IndexViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print(FileTool.init().getDocumentPath())
     }
     
 

@@ -274,6 +274,7 @@
 				A93B37F025F50F55005B0250 /* Sources */,
 				A93B37F125F50F55005B0250 /* Frameworks */,
 				A93B37F225F50F55005B0250 /* Resources */,
+				A85A9646F9D93A20A09809E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -330,6 +331,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A85A9646F9D93A20A09809E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UUAccount/Pods-UUAccount-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UUAccount/Pods-UUAccount-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UUAccount/Pods-UUAccount-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C4A224A5AC0454C88E0E6C94 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -8,14 +8,20 @@ target 'UUAccount' do
    pod 'Toast-Swift'
   #  键盘弹出
    pod 'IQKeyboardManagerSwift'
-  #  应用内自定义通知
-#  pod 'NotificationBannerSwift'
   # 暗黑模式
   pod 'FluentDarkModeKit'
   # sqlite数据库
   pod 'GRDB.swift'
+  # 下拉刷新
+  pod 'ESPullToRefresh'
+  #  空页面判断
+  pod 'EmptyDataSet-Swift'
+  # 侧滑菜单
+  pod 'SideMenu'
+  # 报表工具
+  pod 'AAInfographics'
 
-pod 'ReactiveCocoa'
+  pod 'ReactiveCocoa'
   
 end
 

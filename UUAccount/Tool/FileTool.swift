@@ -10,11 +10,11 @@ import UIKit
 import AVFoundation
 import Photos
 class FileTool: NSObject {
-    /// 获取document文件夹
+    /// MARK:获取document文件夹
     func getDocumentPath()->String{
         return NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
     }
-    //    创建文件夹
+    //    MARK:创建文件夹
     func createDirectory(path:String) throws ->Bool{
         let fileManger = FileManager.default
         var isDirectory:ObjCBool = false
@@ -32,7 +32,7 @@ class FileTool: NSObject {
             return true
         }
     }
-    //    TODO:创建文件
+    //    MARK:创建文件
     func createFile(document:String,fileData:Data) -> Bool {
         let path = self.getDocumentPath().appending(document)
         let fileManager = FileManager.default
@@ -48,7 +48,7 @@ class FileTool: NSObject {
             return true
         }
     }
-    //    TODO:删除文件
+    //    MARK:删除文件
     func deleteFileWithPath(path:String) -> Bool {
         let fileManager = FileManager.default
         do {
